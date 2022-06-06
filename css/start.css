@@ -1,0 +1,28 @@
+/*h1 {
+  color: blue;
+}
+
+p {
+
+  color: blueviolet;
+}
+
+button {
+  color: magenta;
+  background-color: cyan;
+}
+*/
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: underline wavy;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}

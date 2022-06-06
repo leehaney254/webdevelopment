@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <h1>Form</h1>
+  <form action="">
+    <div>
+      <label for="username">username</label>
+      <input type="text" placeholder="username" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">password</label>
+      <input type="password" placeholder="password" id="password">
+    </div>
+    <input type="color">
+    <input type="checkbox" id="check" name="agree">
+    <label for="check">Terms and condition</label>
+    <p>
+      <input type="radio" name="radio" id="xm" value="xm">
+      <label for="xm">xm</label>
+      <input type="radio" name="radio" id="s" value="s">
+      <label for="s">small</label>
+      <input type="radio" name="radio" id="large" value="l">
+      <label for="large">large</label>
+    </p>
+    <p>
+      <label for="meal">Please select a meal</label>
+      <select name="meal" id="meal">
+        <option value="chips">chips</option>
+        <option value="fish">fish</option>
+        <option value="rice">rice</option>
+      </select>
+    </p>
+    <p>
+      <button>submit</button>
+    </p>
+  </form>
+
+  <h2>Serching in redit</h2>
+  <form action="https://www.reddit.com">
+    <input type="search" name="q" id="search" placeholder="search">
+    <button>search reddit</button>
+  </form>
+
+
+</body>
+
+</html>

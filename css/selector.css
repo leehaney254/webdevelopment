@@ -1,0 +1,46 @@
+/*univeersal selector*/
+* {
+  background-color: cyan;
+}
+
+/*selecting using id*/
+#button1 {
+  background-color: black;
+  color: white;
+}
+
+/*selecting using class*/
+.strong {
+  color: grey;
+}
+
+/*selecting descendants*/
+li a {
+  color: white;
+}
+
+/*selecting multiple components*/
+h1,
+h2 {
+  color: black;
+}
+
+/*adjacent selectors*/
+h1+p {
+  color: green;
+}
+
+/*direct child selector*/
+h2>button {
+  color: pink;
+}
+
+/*selecting attributes*/
+input [type="text"] {
+  color: brown;
+}
+
+/*pseudo class*/
+a:hover {
+  color: beige;
+}
