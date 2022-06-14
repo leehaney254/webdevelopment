@@ -1,0 +1,47 @@
+/*perentage is relative to parent element, good for width and height
+*em is relative to font size of parent 
+*rem is based on the root element
+*/
+body {
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #e5989b;
+  /*display: inline;*/
+}
+
+h1 {
+  color: pink;
+  width: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+#one {
+  background-color: #e5989b;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box
+}
+
+#two {
+  background-color: #b5838d;
+  border-color: #ffcdb2;
+  border-width: 3px;
+  border-style: dashed;
+  border-left-color: aqua;
+}
+
+#three {
+  background-color: #6d6875;
+  border: 4px solid black;
+  border-radius: 50%;
+}
+
+button {
+  padding: 10px 20px;
+}

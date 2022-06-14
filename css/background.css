@@ -1,0 +1,17 @@
+section {
+  width: 80%;
+  height: 800px;
+  background-color: purple;
+  background: no-repeat url(https://images.unsplash.com/photo-1655062406432-8f5a8f8499ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: contain;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+}
+
+/*
+*background-position 
+*/

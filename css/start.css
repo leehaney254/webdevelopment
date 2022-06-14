@@ -26,3 +26,13 @@ a {
 p {
   line-height: 2;
 }
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+}

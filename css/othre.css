@@ -1,0 +1,25 @@
+/*positioning elements
+*static- does not move
+*relative - relative to its current position
+*absolute - removed from normal document flow. 
+*fixed- does not move with body
+*sticky - starts of relative then becomes fixed
+*/
+section {
+  width: 500px;
+  height: 500px;
+  background-color: magenta;
+}
+
+#rgba {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#opacity {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+  opacity: 1;
+}
