@@ -1,12 +1,15 @@
 const firebase = require('firebase')
+let json;
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBfbMjSGBq-YYgwFG7OVe9g94aXpvRGKZw",
-  authDomain: "pegasus-3b383.firebaseapp.com",
-  projectId: "pegasus-3b383",
-  storageBucket: "pegasus-3b383.appspot.com",
-  messagingSenderId: "396066997907",
-  appId: "1:396066997907:web:221054fa44e21999b02f66"
+  apiKey: "AIzaSyBWb-pPO-mxbiT7Ha7DIYhYlpDqtBFyhjg",
+  authDomain: "testing-58bc5.firebaseapp.com",
+  databaseURL: "https://testing-58bc5-default-rtdb.firebaseio.com",
+  projectId: "testing-58bc5",
+  storageBucket: "testing-58bc5.appspot.com",
+  messagingSenderId: "816235286882",
+  appId: "1:816235286882:web:f54dff143119a578621c3b"
 };
 
 // Get a database reference to our posts
@@ -15,7 +18,9 @@ const ref = firebase.database().ref("Sensor");
 
 // Attach an asynchronous callback to read the data at our posts reference
 ref.on('value', (snapshot) => {
-  console.log(snapshot.val());
+  json = snapshot.val();
+  console.log(json);;
 }, (errorObject) => {
   console.log('The read failed: ' + errorObject.name);
-}); 
+});
+
